@@ -12,4 +12,5 @@ public interface ProductCategoryService {
 	String saveProductCategory(ProductCategory productCategory);
 	List<ProductCategory> findAllProductCategory();
 	String modifyProductCategory(ProductCategory productCategory, long id);
+	ProductCategory findProductCategory(long id);
 }

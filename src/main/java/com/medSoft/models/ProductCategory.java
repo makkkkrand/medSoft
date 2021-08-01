@@ -7,9 +7,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import org.hibernate.annotations.Generated;
-import org.hibernate.annotations.GenerationTime;
-
 @Entity
 @Table(schema = "medsoft_all", name = "PRODUCT_CATEGORY")
 public class ProductCategory {

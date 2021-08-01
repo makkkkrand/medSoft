@@ -41,7 +41,11 @@ public class ProductCategoryController {
 		String modifyProductCategory = productCategoryService.modifyProductCategory(productCategory, id);
 		return modifyProductCategory;
 	}
-
 	
+	@GetMapping(path = "productCategory/fetch/{id}")
+	public ProductCategory fetchProductCategory(@PathVariable long id) {
+		ProductCategory findProductCategory = productCategoryService.findProductCategory(id);
+		return findProductCategory;
+	}
 	
 }

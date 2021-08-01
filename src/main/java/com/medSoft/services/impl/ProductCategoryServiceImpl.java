@@ -1,6 +1,7 @@
 package com.medSoft.services.impl;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -34,8 +35,15 @@ public class ProductCategoryServiceImpl implements ProductCategoryService{
 	public String modifyProductCategory(ProductCategory productCategory, long id) {
 		productCategory.setId(id);
 		ProductCategory category = repo.save(productCategory);
-		log.info("Mmodified productCategory", category.getCategoryName());
+		log.info("Modified productCategory", category.getCategoryName());
 		return null != category && -1 != category.getId()?"Pass":"Fail";
+	}
+
+	@Override
+	public ProductCategory findProductCategory(long id) {
+		Optional<ProductCategory> category = repo.findById(id);
+		log.info("Fetched productCategory", category.isPresent()?category.get():null);
+		return category.isPresent()?category.get():null;
 	}
 
 }
