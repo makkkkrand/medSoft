@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(schema = "medsoft_all", name = "PROD_CATEGORY")
+@Table(name = "PROD_CATEGORY")
 public class ProductCategory {
 
 	@Id
