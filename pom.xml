@@ -12,6 +12,7 @@
 	<artifactId>MedSoft</artifactId>
 	<version>0.0.1</version>
 	<name>MedSoft</name>
+<!-- 	<packaging>war</packaging> -->
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -59,13 +60,13 @@
 			<artifactId>tomcat-embed-jasper</artifactId>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.eclipse.jdt.core.compiler</groupId>
 			<artifactId>ecj</artifactId>
 			<version>4.6.1</version>
 			<scope>provided</scope>
 		</dependency>
-
+ -->
 		<!-- Optional, test for static content, bootstrap CSS -->
 		<dependency>
 			<groupId>org.webjars</groupId>
