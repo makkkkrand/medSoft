@@ -6,29 +6,35 @@ import java.net.URLEncoder;
 
 import org.springframework.stereotype.Service;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Service
+@Slf4j
 public class URlEncoderDecoderProcessor {
 
-	private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(URlEncoderDecoderProcessor.class);
-
 	public String decode(String url) {
+		String decodeURL ="";
 		try {
-			String decodeURL = URLDecoder.decode(url, "UTF-8");
+			decodeURL = URLDecoder.decode(url, "UTF-8");
 			log.info("Encoded URL", decodeURL);
 			return decodeURL;
 		} catch (UnsupportedEncodingException e) {
-			return "Issue while decoding" + e.getMessage();
+			log.error("Issue while decoding" , e.getMessage());
 		}
+		return decodeURL ;
 	}
 
 	public String encode(String url) {
+		String encodeURL="";
 		try {
-			String encodeURL = URLEncoder.encode(url, "UTF-8");
+			encodeURL = URLEncoder.encode(url, "UTF-8");
 			log.info("Encoded URL", encodeURL);
 			return encodeURL;
 		} catch (UnsupportedEncodingException e) {
-			return "Issue while encoding" + e.getMessage();
+			log.error("Issue while encoding" + e.getMessage());
+			
 		}
+		return encodeURL;
 	}
 
 }

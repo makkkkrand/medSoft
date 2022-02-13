@@ -11,14 +11,15 @@ import com.medSoft.models.ProductCategory;
 import com.medSoft.repositories.ProductCategoryRepository;
 import com.medSoft.services.ProductCategoryService;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Service
+@Slf4j
 public class ProductCategoryServiceImpl implements ProductCategoryService{
 
 	@Autowired
 	ProductCategoryRepository repo;
 
-	private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ProductCategoryServiceImpl.class);
-	
 	@Override
 	public String saveProductCategory(ProductCategory productCategory) {
 		
