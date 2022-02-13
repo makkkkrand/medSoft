@@ -21,7 +21,6 @@ public class Internationalization implements WebMvcConfigurer {
    @Bean
    public LocaleChangeInterceptor localeChangeInterceptor() {
       LocaleChangeInterceptor localeChangeInterceptor = new LocaleChangeInterceptor();
-      //localeChangeInterceptor.setParamName("language");
       return localeChangeInterceptor;
    }
    @Override

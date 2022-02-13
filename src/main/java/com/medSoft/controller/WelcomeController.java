@@ -8,14 +8,13 @@ public class WelcomeController {
 
 	@RequestMapping("/")
 	public String welcome() {
-		//return "view/welcome";
-		return "welcome";
+		return "jsp/welcome.jsp";
 	}
 	
 	@RequestMapping("/home")
 	public String home() {
 		//return "view/welcome";
-		return "home";
+		return "jsp/home.jsp";
 	}
 	
 }

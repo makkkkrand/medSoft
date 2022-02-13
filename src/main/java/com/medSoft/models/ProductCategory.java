@@ -1,5 +1,7 @@
 package com.medSoft.models;
 
+import java.util.UUID;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,21 +10,21 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(schema = "medsoft_all", name = "PRODUCT_CATEGORY")
+@Table(name = "PROD_CATEGORY")
 public class ProductCategory {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long Id;
+	private UUID Id;
 	
 	@Column(name = "categoryName")
 	private String categoryName;
 
-	public long getId() {
+	public UUID getId() {
 		return Id;
 	}
 
-	public void setId(long id) {
+	public void setId(UUID id) {
 		Id = id;
 	}
 
