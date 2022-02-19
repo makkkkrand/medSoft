@@ -1,4 +1,4 @@
-package com.medSoft.controller;
+package com.medSoft.controller.app;
 
 import java.util.List;
 import java.util.Map;

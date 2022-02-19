@@ -9,8 +9,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.Data;
+
 @Entity
 @Table(name = "PROD_CATEGORY")
+@Data
 public class ProductCategory {
 
 	@Id
@@ -20,27 +23,4 @@ public class ProductCategory {
 	@Column(name = "categoryName")
 	private String categoryName;
 
-	public UUID getId() {
-		return Id;
-	}
-
-	public void setId(UUID id) {
-		Id = id;
-	}
-
-	public String getCategoryName() {
-		return categoryName;
-	}
-
-	public void setCategoryName(String categoryName) {
-		this.categoryName = categoryName;
-	}
-
-	@Override
-	public String toString() {
-		return "ProductCategory [Id=" + Id + ", categoryName=" + categoryName + "]";
-	}
-	
-	
-	
 }
