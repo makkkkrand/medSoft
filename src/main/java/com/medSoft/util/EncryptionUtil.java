@@ -23,7 +23,7 @@ class EncryptionUtil {
 
 	private static final String PBKDF2_WITH_HMAC_SHA256 = "PBKDF2WithHmacSHA256";
 
-	private static final String AES_CBC_PKCS5PADDING = "AES/CBC/PKCS5PADDING";
+	private static final String AES_CBC_PKCS5PADDING = "AES/CBC/PKCS5Padding";
 
 	@Value("${secret.key}")
 	private String secretKey;
@@ -37,7 +37,7 @@ class EncryptionUtil {
 		try {
 			IvParameterSpec ivspec = new IvParameterSpec(iv);
 			SecretKeySpec secretKey = extractSecretKey();
-			Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
+			Cipher cipher = Cipher.getInstance(AES_CBC_PKCS5PADDING);
 			cipher.init(Cipher.ENCRYPT_MODE, secretKey, ivspec);
 			return Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(StandardCharsets.UTF_8)));
 		} catch (Exception e) {
@@ -67,16 +67,5 @@ class EncryptionUtil {
 		SecretKeySpec secretKey = new SecretKeySpec(tmp.getEncoded(), AES);
 		return secretKey;
 	}
-
-//	public static void main(String[] args) {
-//		EncryptionUtil encryptionUtil = new EncryptionUtil();
-//		String encrypt = encryptionUtil.encrypt("Welcome123");
-//		System.out.println("Encryption:"+encrypt);
-//		
-//		String decrypt = encryptionUtil.decrypt(encrypt);
-//		System.out.println("Decryption:"+decrypt);
-//		
-//		
-//	}
 
 }

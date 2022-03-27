@@ -1,4 +1,4 @@
-package com.medSoft.controller.app;
+package com.medSoft.app.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.medSoft.models.ProductCategory;
-import com.medSoft.services.ProductCategoryService;
+import com.medSoft.app.models.ProductCategory;
+import com.medSoft.app.services.ProductCategoryService;
 
 
 @Controller

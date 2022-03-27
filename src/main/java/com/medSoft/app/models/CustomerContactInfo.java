@@ -1,4 +1,4 @@
-package com.medSoft.models;
+package com.medSoft.app.models;
 
 import java.util.UUID;
 

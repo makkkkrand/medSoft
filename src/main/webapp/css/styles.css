@@ -1,960 +1,961 @@
 .color-1 {
-	color: #60b2f1;
+  color: #60b2f1;
 }
 
 .color-2 {
-	color: #b2f160;
+  color: #b2f160;
 }
 
 .color-3 {
-	color: #69f160;
+  color: #69f160;
 }
 
 .color-4 {
-	color: #60f1a0;
+  color: #60f1a0;
 }
 
 .color-5 {
-	color: #60f1e8;
+  color: #60f1e8;
 }
 
 .color-6 {
-	color: #60b2f1;
+  color: #60b2f1;
 }
 
 .Fwk-Headig1 {
-	font-family: "Whitney" !important;
-	font-size: 32px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #101316 !important;
-	text-align: center !important;
-	line-height: 39px !important;
+  font-family: "Whitney" !important;
+  font-size: 32px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #101316 !important;
+  text-align: center !important;
+  line-height: 39px !important;
 }
 
 .heading2 {
-	font-size: 22px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #101316 !important;
-	text-align: center !important;
-	line-height: 26px !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #101316 !important;
+  text-align: center !important;
+  line-height: 26px !important;
 }
 
 .Fwk-Heading3 {
-	font-size: 16px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #383B3E !important;
-	text-align: center !important;
-	line-height: 19px !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #383b3e !important;
+  text-align: center !important;
+  line-height: 19px !important;
 }
 
 .Fwk-Heading3_101316 {
-	font-size: 16px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #101316 !important;
-	text-align: center !important;
-	line-height: 19px !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #101316 !important;
+  text-align: center !important;
+  line-height: 19px !important;
 }
 
 .Fwk-Heading4 {
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #383B3E !important;
-	text-align: center !important;
-	line-height: 16px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #383b3e !important;
+  text-align: center !important;
+  line-height: 16px !important;
 }
 
 .Fwk-Heading6 {
-	font-size: 10px !important;
-	font-weight: 600 !important;
-	font-family: "WhitneySemi" !important;
-	color: #383B3E !important;
-	text-align: center !important;
-	line-height: 30px !important;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  font-family: "WhitneySemi" !important;
+  color: #383b3e !important;
+  text-align: center !important;
+  line-height: 30px !important;
 }
 
 .bodyTxt1_Regular {
-	font-family: "Whitney" !important;
-	font-size: 14px !important;
-	font-weight: 350 !important;
-	color: #383B3E !important;
-	text-align: center !important;
-	line-height: 20px !important;
+  font-family: "Whitney" !important;
+  font-size: 14px !important;
+  font-weight: 350 !important;
+  color: #383b3e !important;
+  text-align: center !important;
+  line-height: 20px !important;
 }
 
 .bodyTxt1_Regular_101316 {
-	font-family: "Whitney" !important;
-	font-size: 14px !important;
-	font-weight: 350 !important;
-	color: #101316 !important;
-	text-align: center !important;
-	line-height: 20px !important;
+  font-family: "Whitney" !important;
+  font-size: 14px !important;
+  font-weight: 350 !important;
+  color: #101316 !important;
+  text-align: center !important;
+  line-height: 20px !important;
 }
 
 .BodyTxt1_Regular_600 {
-	font-size: 14px !important;
-	font-weight: 600 !important;
-	font-family: "WhitneySemi" !important;
-	color: #383B3E !important;
-	text-align: center !important;
-	line-height: 20px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: "WhitneySemi" !important;
+  color: #383b3e !important;
+  text-align: center !important;
+  line-height: 20px !important;
 }
 
 .BodyTxt1_Regular_600_10875F {
-	font-size: 14px !important;
-	font-weight: 600 !important;
-	font-family: "WhitneySemi" !important;
-	color: #10875F !important;
-	text-align: center !important;
-	line-height: 20px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: "WhitneySemi" !important;
+  color: #10875f !important;
+  text-align: center !important;
+  line-height: 20px !important;
 }
 
 .BodyTxt1_Regular_600_994E04 {
-	font-size: 14px !important;
-	font-weight: 600 !important;
-	font-family: "WhitneySemi" !important;
-	color: #994E04 !important;
-	text-align: center !important;
-	line-height: 20px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: "WhitneySemi" !important;
+  color: #994e04 !important;
+  text-align: center !important;
+  line-height: 20px !important;
 }
 
 .BodyTxt1_Regular_600_6661A3 {
-	font-family: "Whitney" !important;
-	font-size: 14px !important;
-	font-weight: 600 !important;
-	font-family: "WhitneySemi" !important;
-	color: #6661A3 !important;
-	text-align: center !important;
-	line-height: 20px !important;
+  font-family: "Whitney" !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: "WhitneySemi" !important;
+  color: #6661a3 !important;
+  text-align: center !important;
+  line-height: 20px !important;
 }
 
 .BodyTxt1_Regular_600_0B64AC {
-	font-size: 14px !important;
-	font-weight: 600 !important;
-	font-family: "WhitneySemi" !important;
-	color: #0B64AC !important;
-	text-align: center !important;
-	line-height: 20px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: "WhitneySemi" !important;
+  color: #0b64ac !important;
+  text-align: center !important;
+  line-height: 20px !important;
 }
 
 .Body_Txt1_DarkGrey {
-	font-family: "Whitney" !important;
-	font-size: 14px !important;
-	font-weight: 350 !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 20px !important;
+  font-family: "Whitney" !important;
+  font-size: 14px !important;
+  font-weight: 350 !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 20px !important;
 }
 
 .BodyTxt1_DarkGrey_500 {
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 20px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 20px !important;
 }
 
 .bodyTxt1_grey {
-	font-family: "Whitney" !important;
-	font-size: 14px !important;
-	font-weight: 350 !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 16px !important;
+  font-family: "Whitney" !important;
+  font-size: 14px !important;
+  font-weight: 350 !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 16px !important;
 }
 
 .BodyTxt1_White {
-	font-family: "Whitney" !important;
-	font-size: 14px !important;
-	font-weight: 350 !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 16px !important;
+  font-family: "Whitney" !important;
+  font-size: 14px !important;
+  font-weight: 350 !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 16px !important;
 }
 
 .BodyTxt1_White_600 {
-	font-size: 14px !important;
-	font-weight: 600 !important;
-	font-family: "WhitneySemi" !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 16px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: "WhitneySemi" !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 16px !important;
 }
 
 .BodyTxt2_Regular {
-	font-family: "Whitney" !important;
-	font-size: 14px !important;
-	font-weight: 350 !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 16px !important;
+  font-family: "Whitney" !important;
+  font-size: 14px !important;
+  font-weight: 350 !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 16px !important;
 }
 
 .BodyTxt2_#60b2f1 {
-	font-family: "Whitney" !important;
-	font-size: 14px !important;
-	font-weight: 350 !important;
-	color: #60b2f1 !important;
-	text-align: center !important;
-	line-height: 16px !important;
+  font-family: "Whitney" !important;
+  font-size: 14px !important;
+  font-weight: 350 !important;
+  color: #60b2f1 !important;
+  text-align: center !important;
+  line-height: 16px !important;
 }
 
 .FieldLableText {
-	font-size: 12px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .IpValueText {
-	font-size: 13px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .BodyTxt3_Green {
-	font-family: "Whitney" !important;
-	font-size: 12px !important;
-	font-weight: 350 !important;
-	color: #1F8561 !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-family: "Whitney" !important;
+  font-size: 12px !important;
+  font-weight: 350 !important;
+  color: #1f8561 !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .BodyTxt3_Light {
-	font-family: "Whitney" !important;
-	font-size: 12px !important;
-	font-weight: 350 !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-family: "Whitney" !important;
+  font-size: 12px !important;
+  font-weight: 350 !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .BodyTxt3_LightWhite {
-	font-family: "Whitney" !important;
-	font-size: 12px !important;
-	font-weight: 350 !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-family: "Whitney" !important;
+  font-size: 12px !important;
+  font-weight: 350 !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .BodyTxt3_500 {
-	font-size: 12px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #101316 !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #101316 !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .BodyTxt3_Regular {
-	font-size: 12px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #383B3E !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #383b3e !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .BodyTxt3_Regular_Orange {
-	font-family: "Whitney" !important;
-	font-size: 12px !important;
-	font-weight: 350 !important;
-	color: #994E04 !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-family: "Whitney" !important;
+  font-size: 12px !important;
+  font-weight: 350 !important;
+  color: #994e04 !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .BodyTxt3_Regular_Red {
-	font-family: "Whitney" !important;
-	font-size: 12px !important;
-	font-weight: 350 !important;
-	color: #C41F3E !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-family: "Whitney" !important;
+  font-size: 12px !important;
+  font-weight: 350 !important;
+  color: #c41f3e !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .BodyTxt3_Regular_Green {
-	font-family: "Whitney" !important;
-	font-size: 12px !important;
-	font-weight: 350 !important;
-	color: #1F8561 !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-family: "Whitney" !important;
+  font-size: 12px !important;
+  font-weight: 350 !important;
+  color: #1f8561 !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .BodyText3_Regular_DarkGrey {
-	font-family: "Whitney" !important;
-	font-size: 12px !important;
-	font-weight: 350 !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-family: "Whitney" !important;
+  font-size: 12px !important;
+  font-weight: 350 !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .BodyTxt3_Regular_Grey {
-	font-family: "Whitney" !important;
-	font-size: 12px !important;
-	font-weight: 350 !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-family: "Whitney" !important;
+  font-size: 12px !important;
+  font-weight: 350 !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .BodyText4_Regular {
-	font-size: 11px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 14px !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 14px !important;
 }
 
 .BodyTxt4_600 {
-	font-size: 11px !important;
-	font-weight: 600 !important;
-	font-family: "WhitneySemi" !important;
-	color: #101316 !important;
-	text-align: center !important;
-	line-height: 14px !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  font-family: "WhitneySemi" !important;
+  color: #101316 !important;
+  text-align: center !important;
+  line-height: 14px !important;
 }
 
 .BodyTxt5 {
-	font-family: "Whitney" !important;
-	font-size: 10px !important;
-	font-weight: 350 !important;
-	color: #FFFFFF !important;
-	text-align: center !important;
-	line-height: 12px !important;
+  font-family: "Whitney" !important;
+  font-size: 10px !important;
+  font-weight: 350 !important;
+  color: #ffffff !important;
+  text-align: center !important;
+  line-height: 12px !important;
 }
 
 .BodyTxt6 {
-	font-family: "Whitney" !important;
-	font-size: 10px !important;
-	font-weight: 350 !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 12px !important;
+  font-family: "Whitney" !important;
+  font-size: 10px !important;
+  font-weight: 350 !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 12px !important;
 }
 
 .BodyTxt6_White_500 {
-	font-size: 10px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #FFFFFF !important;
-	text-align: center !important;
-	line-height: 12px !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #ffffff !important;
+  text-align: center !important;
+  line-height: 12px !important;
 }
 
 .BodyTxt6_Black_500 {
-	font-size: 10px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #101316 !important;
-	text-align: center !important;
-	line-height: 12px !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #101316 !important;
+  text-align: center !important;
+  line-height: 12px !important;
 }
 
 .I_WANT_TO_BTN {
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #60b2f1 !important;
-	text-align: center !important;
-	line-height: 16px !important;
-	height: 36px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #60b2f1 !important;
+  text-align: center !important;
+  line-height: 16px !important;
+  height: 36px !important;
 }
 
 .IWT_Grp_Title {
-	font-size: 14px !important;
-	font-weight: 600 !important;
-	font-family: "WhitneySemi" !important;
-	color: #383B3E !important;
-	text-align: center !important;
-	line-height: 16px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: "WhitneySemi" !important;
+  color: #383b3e !important;
+  text-align: center !important;
+  line-height: 16px !important;
 }
 
 .IWT_Grp_Option {
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #60b2f1 !important;
-	text-align: center !important;
-	line-height: 16px !important;
-	min-width: 200px !important;
-	background-color: #FFFFFF !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #60b2f1 !important;
+  text-align: center !important;
+  line-height: 16px !important;
+  min-width: 200px !important;
+  background-color: #ffffff !important;
 }
 
 .I_WANT_TO_BTN:hover {
-	color: #C41F3E !important;
+  color: #c41f3e !important;
 }
 
 .IWT_Grp_Option:hover {
-	color: #C41F3E !important;
+  color: #c41f3e !important;
 }
 
 .Icon_Flat_Button {
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #60b2f1 !important;
-	text-align: center !important;
-	letter-spacing: 0px !important;
-	line-height: 16px !important;
-	height: 36px !important;
-	padding-left: 16px !important;
-	padding-right: 16px !important;
-	margin-left: 8px !important;
-	margin-right: 8px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #60b2f1 !important;
+  text-align: center !important;
+  letter-spacing: 0px !important;
+  line-height: 16px !important;
+  height: 36px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  margin-left: 8px !important;
+  margin-right: 8px !important;
 }
 
 .Icon_Flat_Button:disabled {
-	color: #BBBCBC !important;
+  color: #bbbcbc !important;
 }
 
 .Icon_Flat_Button:hover {
-	color: #C41F3E !important;
-	text-decoration: underline !important;
+  color: #c41f3e !important;
+  text-decoration: underline !important;
 }
 
 .Icon_Flat_Button:active {
-	color: #612141 !important;
+  color: #612141 !important;
 }
 
 .solid_button {
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #FFFFFF !important;
-	background-color: #60b2f1;
-	text-align: center !important;
-	display: inline-block !important;
-	line-height: 16px !important;
-	height: 32px !important;
-	border-radius: 4px !important;
-	padding-left: 24px !important;
-	padding-right: 24px !important;
-	padding-top: 0px !important;
-	padding-bottom: 0px !important;
-	min-width: 136px !important;
-	margin: 8px !important;
-	border-width: 0px !important;
-	border-style: none !important;
-	border-image: none !important;
-	box-sizing: none !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #ffffff !important;
+  background-color: #60b2f1;
+  text-align: center !important;
+  display: inline-block !important;
+  line-height: 16px !important;
+  height: 32px !important;
+  border-radius: 4px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  min-width: 136px !important;
+  margin: 8px !important;
+  border-width: 0px !important;
+  border-style: none !important;
+  border-image: none !important;
+  box-sizing: none !important;
 }
 
 .solid_button:hover {
-	background-color: #C41F3E !important;
+  background-color: #c41f3e !important;
 }
 
 .solid_button:active {
-	background-color: #612141 !important;
+  background-color: #612141 !important;
 }
 
 .solid_btn_normal {
-	background-color: #60b2f1 !important;
+  background-color: #60b2f1 !important;
 }
 
 .solid_btn_negative {
-	background: none !important;
-	color: #60b2f1 !important;
-	-webkit-text-stroke: 1px #60b2f1 !important;
-	stroke: 1px solid #60b2f1 !important;
-	border: 1px solid #60b2f1 !important;
-	stroke-width: 1px !important;
+  background: none !important;
+  color: #60b2f1 !important;
+  -webkit-text-stroke: 1px #60b2f1 !important;
+  stroke: 1px solid #60b2f1 !important;
+  border: 1px solid #60b2f1 !important;
+  stroke-width: 1px !important;
 }
 
 .solid_btn_negative:active {
-	background: none !important;
-	color: #612141 !important;
-	-webkit-text-stroke: 1px #612141 !important;
-	stroke: 1px solid #612141 !important;
-	border: 1px solid #612141 !important;
-	stroke-width: 1px !important;
+  background: none !important;
+  color: #612141 !important;
+  -webkit-text-stroke: 1px #612141 !important;
+  stroke: 1px solid #612141 !important;
+  border: 1px solid #612141 !important;
+  stroke-width: 1px !important;
 }
 
 .solid_btn_negative:disabled {
-	background-color: #F2F3F2 !important;
-	stroke: 1px solid #BBBCBC !important;
-	color: #BBBCBC !important;
-	stroke-width: 1px !important;
+  background-color: #f2f3f2 !important;
+  stroke: 1px solid #bbbcbc !important;
+  color: #bbbcbc !important;
+  stroke-width: 1px !important;
 }
 
 .solid_btn_normal:disabled {
-	background-color: #F2F3F2 !important;
-	-webkit-text-stroke: 1px #BBBCBC !important;
-	stroke: 1px solid #BBBCBC !important;
-	color: #BBBCBC !important;
-	stroke-width: 1px !important;
-	border: 1px solid #BBBCBC !important;
+  background-color: #f2f3f2 !important;
+  -webkit-text-stroke: 1px #bbbcbc !important;
+  stroke: 1px solid #bbbcbc !important;
+  color: #bbbcbc !important;
+  stroke-width: 1px !important;
+  border: 1px solid #bbbcbc !important;
 }
 
 .flat_button {
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #60b2f1 !important;
-	text-align: center !important;
-	letter-spacing: 0px !important;
-	display: inline-block !important;
-	line-height: 16px !important;
-	height: 32px !important;
-	padding-left: 24px !important;
-	padding-right: 24px !important;
-	padding-top: 0px !important;
-	padding-bottom: 0px !important;
-	min-width: 136px !important;
-	margin: 8px !important;
-	border: none !important;
-	outline: none !important;
-	background: none !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #60b2f1 !important;
+  text-align: center !important;
+  letter-spacing: 0px !important;
+  display: inline-block !important;
+  line-height: 16px !important;
+  height: 32px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  min-width: 136px !important;
+  margin: 8px !important;
+  border: none !important;
+  outline: none !important;
+  background: none !important;
 }
 
 .flat_button:hover {
-	color: #C41F3E !important;
-	text-decoration: underline !important;
+  color: #c41f3e !important;
+  text-decoration: underline !important;
 }
 
 .flat_button:disabled {
-	color: #BBBCBC !important;
+  color: #bbbcbc !important;
 }
 
 .flat_button:active {
-	color: #612141 !important;
+  color: #612141 !important;
 }
 
 .flat_button_inverse {
-	color: #FFFFFF !important;
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	text-align: center !important;
-	letter-spacing: 0px !important;
-	display: inline-block !important;
-	line-height: 16px !important;
-	height: 32px !important;
-	padding-left: 24px !important;
-	padding-right: 24px !important;
-	padding-top: 0px !important;
-	padding-bottom: 0px !important;
-	min-width: 136px !important;
-	margin: 8px !important;
-	border: none !important;
-	outline: none !important;
-	background: none !important;
+  color: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  text-align: center !important;
+  letter-spacing: 0px !important;
+  display: inline-block !important;
+  line-height: 16px !important;
+  height: 32px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  min-width: 136px !important;
+  margin: 8px !important;
+  border: none !important;
+  outline: none !important;
+  background: none !important;
 }
 
 .flat_button_inverse:hover {
-	text-decoration: underline !important;
+  text-decoration: underline !important;
 }
 
 .flat_button_inverse:disabled {
-	color: #BBBCBC !important;
+  color: #bbbcbc !important;
 }
 
 .outline_btn {
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #60b2f1 !important;
-	text-align: center !important;
-	letter-spacing: 0px !important;
-	display: inline-block !important;
-	line-height: 16px !important;
-	height: 32px !important;
-	padding-left: 24px !important;
-	padding-right: 24px !important;
-	padding-top: 0px !important;
-	padding-bottom: 0px !important;
-	min-width: 136px !important;
-	margin: 8px !important;
-	border-radius: 4px;
-	outline: none !important;
-	background: none !important;
-	-webkit-text-stroke: 1px #60b2f1 !important;
-	stroke: 1px solid #60b2f1 !important;
-	border: 1px solid #60b2f1 !important;
-	stroke-width: 1px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #60b2f1 !important;
+  text-align: center !important;
+  letter-spacing: 0px !important;
+  display: inline-block !important;
+  line-height: 16px !important;
+  height: 32px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  min-width: 136px !important;
+  margin: 8px !important;
+  border-radius: 4px;
+  outline: none !important;
+  background: none !important;
+  -webkit-text-stroke: 1px #60b2f1 !important;
+  stroke: 1px solid #60b2f1 !important;
+  border: 1px solid #60b2f1 !important;
+  stroke-width: 1px !important;
 }
 
 .outline_btn:hover {
-	color: #C41F3E !important;
-	-webkit-text-stroke: 1px #C41F3E !important;
-	stroke: 1px solid #C41F3E !important;
-	border: 1px solid #C41F3E !important;
-	stroke-width: 1px !important;
+  color: #c41f3e !important;
+  -webkit-text-stroke: 1px #c41f3e !important;
+  stroke: 1px solid #c41f3e !important;
+  border: 1px solid #c41f3e !important;
+  stroke-width: 1px !important;
 }
 
 .outline_btn:active {
-	color: #612141 !important;
-	-webkit-text-stroke: 1px #612141 !important;
-	stroke: 1px solid #612141 !important;
-	border: 1px solid #612141 !important;
-	stroke-width: 1px !important;
+  color: #612141 !important;
+  -webkit-text-stroke: 1px #612141 !important;
+  stroke: 1px solid #612141 !important;
+  border: 1px solid #612141 !important;
+  stroke-width: 1px !important;
 }
 
 .outline_btn:disabled {
-	color: #BBBCBC !important;
-	-webkit-text-stroke: 1px #BBBCBC !important;
-	stroke: 1px solid #BBBCBC !important;
-	stroke-width: 1px !important;
+  color: #bbbcbc !important;
+  -webkit-text-stroke: 1px #bbbcbc !important;
+  stroke: 1px solid #bbbcbc !important;
+  stroke-width: 1px !important;
 }
 
 .inv_outline_btn {
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #FFFFFF !important;
-	text-align: center !important;
-	letter-spacing: 0px !important;
-	display: inline-block !important;
-	line-height: 16px !important;
-	height: 32px !important;
-	padding-left: 24px !important;
-	padding-right: 24px !important;
-	padding-top: 0px !important;
-	padding-bottom: 0px !important;
-	min-width: 136px !important;
-	margin: 8px !important;
-	border-radius: 4px;
-	outline: none !important;
-	background: #60b2f1 !important;
-	stroke-width: 1px #FFFFFF !important;
-	border: 1px solid #FFFFFF !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #ffffff !important;
+  text-align: center !important;
+  letter-spacing: 0px !important;
+  display: inline-block !important;
+  line-height: 16px !important;
+  height: 32px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  min-width: 136px !important;
+  margin: 8px !important;
+  border-radius: 4px;
+  outline: none !important;
+  background: #60b2f1 !important;
+  stroke-width: 1px #ffffff !important;
+  border: 1px solid #ffffff !important;
 }
 
 .inv_outline_btn:hover {
-	background-color: #C41F3E !important;
+  background-color: #c41f3e !important;
 }
 
 .inv_outline_btn:active {
-	background-color: #612141 !important;
+  background-color: #612141 !important;
 }
 
 .inv_outline_btn:disabled {
-	background-color: #F2F3F2 !important;
-	color: #BBBCBC !important;
-	stroke-width: #BBBCBC !important;
+  background-color: #f2f3f2 !important;
+  color: #bbbcbc !important;
+  stroke-width: #bbbcbc !important;
 }
 
 .compact_btn {
-	height: 24px !important;
-	min-width: 100px !important;
+  height: 24px !important;
+  min-width: 100px !important;
 }
 
 .Link_Txt_Button {
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #60b2f1 !important;
-	text-align: center !important;
-	line-height: 16px !important;
-	background: none !important;
-	border: none !important;
-	text-decoration: underline !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #60b2f1 !important;
+  text-align: center !important;
+  line-height: 16px !important;
+  background: none !important;
+  border: none !important;
+  text-decoration: underline !important;
 }
 
 .Inv_LinkTxt_button {
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #60b2f1 !important;
-	text-align: center !important;
-	line-height: 16px !important;
-	background: none !important;
-	border: none !important;
-	text-decoration: underline !important;
-	word-spacing: 0px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #60b2f1 !important;
+  text-align: center !important;
+  line-height: 16px !important;
+  background: none !important;
+  border: none !important;
+  text-decoration: underline !important;
+  word-spacing: 0px !important;
 }
 
 .Inv_LinkTxt_button:hover {
-	color: #C41F3E !important;
+  color: #c41f3e !important;
 }
 
 .Inv_LinkTxt_button:disabled {
-	color: #BBBCBC !important;
+  color: #bbbcbc !important;
 }
 
 .Inv_LinkTxt_button:active {
-	color: #612141 !important;
+  color: #612141 !important;
 }
 
 .Active_Tab_Parent {
-	text-align: center !important;
-	height: 60px !important;
+  text-align: center !important;
+  height: 60px !important;
 }
 
 .Active_Tab {
-	font-size: 14px !important;
-	font-weight: 600 !important;
-	font-family: "WhitneySemi" !important;
-	color: #101316 !important;
-	text-align: center !important;
-	line-height: 16px !important;
-	height: auto !important;
-	min-width: 32px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: "WhitneySemi" !important;
+  color: #101316 !important;
+  text-align: center !important;
+  line-height: 16px !important;
+  height: auto !important;
+  min-width: 32px !important;
 }
 
 .Active_Tab_Parent:disabled {
-	color: #BBBCBC !important;
+  color: #bbbcbc !important;
 }
 
 .Active_Tab:disabled {
-	color: #BBBCBC !important;
+  color: #bbbcbc !important;
 }
 
 .tableheader {
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #FFFFFF !important;
-	font-size: 11px !important;
-	line-height: 14px !important;
-	background-color: #606366 !important;
-	border-bottom: #BBBCBC !important;
-	border-top: #BBBCBC !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #ffffff !important;
+  font-size: 11px !important;
+  line-height: 14px !important;
+  background-color: #606366 !important;
+  border-bottom: #bbbcbc !important;
+  border-top: #bbbcbc !important;
 }
 
 .TableTxt_Main {
-	font-size: 12px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #383B3E !important;
-	text-align: left !important;
-	line-height: 15px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #383b3e !important;
+  text-align: left !important;
+  line-height: 15px !important;
 }
 
 .TableTxt_Addtnl {
-	font-family: "Whitney" !important;
-	font-size: 12px !important;
-	font-weight: 350 !important;
-	color: #606366 !important;
-	text-align: left !important;
-	line-height: 15px !important;
+  font-family: "Whitney" !important;
+  font-size: 12px !important;
+  font-weight: 350 !important;
+  color: #606366 !important;
+  text-align: left !important;
+  line-height: 15px !important;
 }
 
 .TableTxt_Imp {
-	font-size: 12px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #101316 !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #101316 !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .TableText_Warn {
-	font-family: "Whitney" !important;
-	font-size: 12px !important;
-	font-weight: 350 !important;
-	color: #C41F3E !important;
-	text-align: center !important;
-	line-height: 15px !important;
+  font-family: "Whitney" !important;
+  font-size: 12px !important;
+  font-weight: 350 !important;
+  color: #c41f3e !important;
+  text-align: center !important;
+  line-height: 15px !important;
 }
 
 .TableTxt_SoftWarn {
-	font-family: "Whitney" !important;
-	font-size: 12px !important;
-	font-weight: 350 !important;
-	color: #994E04 !important;
-	text-align: center !important;
-	line-height: 15px !important;
-	min-width: Text width !important;
-	background-color: #F2F3F2 !important;
+  font-family: "Whitney" !important;
+  font-size: 12px !important;
+  font-weight: 350 !important;
+  color: #994e04 !important;
+  text-align: center !important;
+  line-height: 15px !important;
+  min-width: Text width !important;
+  background-color: #f2f3f2 !important;
 }
 
 .Table_BottomBar {
-	font-family: "Whitney" !important;
-	font-size: 14px !important;
-	font-weight: 350 !important;
-	color: #606366 !important;
-	line-height: 16px !important;
-	min-width: 100px !important;
-	background-color: #FFFFFF !important;
+  font-family: "Whitney" !important;
+  font-size: 14px !important;
+  font-weight: 350 !important;
+  color: #606366 !important;
+  line-height: 16px !important;
+  min-width: 100px !important;
+  background-color: #ffffff !important;
 }
 
 .IconInput {
-	font-size: 13px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 15px !important;
-	min-width: 100px !important;
-	background-color: #FFFFFF !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 15px !important;
+  min-width: 100px !important;
+  background-color: #ffffff !important;
 }
 
 .DropDownItemTxt {
-	font-size: 12px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #383B3E !important;
-	text-align: center !important;
-	line-height: 15px !important;
-	min-width: 100px !important;
-	background-color: #FFFFFF !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #383b3e !important;
+  text-align: center !important;
+  line-height: 15px !important;
+  min-width: 100px !important;
+  background-color: #ffffff !important;
 }
 
 .DropDownAddtnlTxt {
-	font-family: "Whitney" !important;
-	font-size: 12px !important;
-	font-weight: 350 !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 15px !important;
-	min-width: 100px !important;
-	background-color: #FFFFFF !important;
+  font-family: "Whitney" !important;
+  font-size: 12px !important;
+  font-weight: 350 !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 15px !important;
+  min-width: 100px !important;
+  background-color: #ffffff !important;
 }
 
 .dropdown_extendedFrame {
-	font-size: 12px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #383B3E !important;
-	text-align: center !important;
-	line-height: 15px !important;
-	height: 36px !important;
-	min-width: 200px !important;
-	background-color: #FFFFFF !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #383b3e !important;
+  text-align: center !important;
+  line-height: 15px !important;
+  height: 36px !important;
+  min-width: 200px !important;
+  background-color: #ffffff !important;
 }
 
 .txtArea {
-	font-size: 13px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #606366 !important;
-	line-height: 15px !important;
-	height: 36px !important;
-	min-width: 100px !important;
-	background-color: #FFFFFF !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #606366 !important;
+  line-height: 15px !important;
+  height: 36px !important;
+  min-width: 100px !important;
+  background-color: #ffffff !important;
 }
 
 .dropdown_valueTxt {
-	font-size: 13px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 15px !important;
-	height: 36px !important;
-	min-width: 100px !important;
-	background-color: #FFFFFF !important;
-	margin: 8px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 15px !important;
+  height: 36px !important;
+  min-width: 100px !important;
+  background-color: #ffffff !important;
+  margin: 8px !important;
 }
 
 .selectBox_text {
-	font-size: 13px !important;
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	color: #606366 !important;
-	text-align: center !important;
-	line-height: 15px !important;
-	height: 36px !important;
-	background-color: #F1F1F1 !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  color: #606366 !important;
+  text-align: center !important;
+  line-height: 15px !important;
+  height: 36px !important;
+  background-color: #f1f1f1 !important;
 }
 
 .Link_Txt_Button:active {
-	color: #612141 !important;
+  color: #612141 !important;
 }
 
 .Link_Txt_Button:hover {
-	color: #C41F3E !important;
+  color: #c41f3e !important;
 }
 
 .IWT_Grp_Option:disabled {
-	color: #BBBCBC !important;
+  color: #bbbcbc !important;
 }
 
 .Link_Txt_Button:disabled {
-	color: #BBBCBC !important;
+  color: #bbbcbc !important;
 }
 
 .currencyCodeNearTextbox {
-	margin-top: 18px !important;
-	margin-left: -10px !important;
+  margin-top: 18px !important;
+  margin-left: -10px !important;
 }
 
 .cibc-breadcrumb-header {
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	width: inherit;
-	height: auto;
-	background-color: #383B3E;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  width: inherit;
+  height: auto;
+  background-color: #383b3e;
 }
 
 .cibc-breadcrumb-text {
-	font-family: "Whitney" !important;
-	font-size: 14px !important;
-	font-weight: 350 !important;
-	color: #FFFFFF !important;
-	text-align: center !important;
-	line-height: 16px !important;
+  font-family: "Whitney" !important;
+  font-size: 14px !important;
+  font-weight: 350 !important;
+  color: #ffffff !important;
+  text-align: center !important;
+  line-height: 16px !important;
 }
 
 .cibc-breadcrumb-text_600 {
-	font-size: 14px !important;
-	font-weight: 600 !important;
-	font-family: "WhitneySemi" !important;
-	color: #FFFFFF !important;
-	text-align: center !important;
-	line-height: 16px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: "WhitneySemi" !important;
+  color: #ffffff !important;
+  text-align: center !important;
+  line-height: 16px !important;
 }
 
 .icon_view {
-	height: 16px !important;
-	width: 16px !important;
-	color: #60b2f1 !important;
+  height: 16px !important;
+  width: 16px !important;
+  color: #60b2f1 !important;
 }
 
 .icon-view:hover {
-	color: #341F3E !important;
+  color: #341f3e !important;
 }
 
 .icon-view:disabled {
-	color: #F2F3F2 !important
+  color: #f2f3f2 !important;
 }
 
-.radio label.content_switcher_text, .content_switcher_text {
-	font-weight: 500 !important;
-	font-family: "WhitneyMed" !important;
-	font-size: 14px !important;
-	height: 60px !important;
-	letter-spacing: 0px !important;
-	line-height: 16px !important;
+.radio label.content_switcher_text,
+.content_switcher_text {
+  font-weight: 500 !important;
+  font-family: "WhitneyMed" !important;
+  font-size: 14px !important;
+  height: 60px !important;
+  letter-spacing: 0px !important;
+  line-height: 16px !important;
 }
 
 .content_switcher_text:hover {
-	color: #C41F3E !important;
-	stroke-width: 1px solid #c41f3e !important;
-	stroke: #C41F3E !important;
+  color: #c41f3e !important;
+  stroke-width: 1px solid #c41f3e !important;
+  stroke: #c41f3e !important;
 }
 
 .content_switcher_text:active {
-	color: #ffffff !important;
-	stroke-width: 1px solid #60b2f1 !important;
-	background-color: #612141 !important;
+  color: #ffffff !important;
+  stroke-width: 1px solid #60b2f1 !important;
+  background-color: #612141 !important;
 }
 
 .alert-info-overloaded {
-	background-color: #eef3fa;
-	border: 1px solid #5C99D6;
-	border-radius: 3px;
-	font-family: "Whitney";
-	font-size: 14px;
-	font-weight: 350px;
-	color: #606366;
-	line-height: 15px;
-	opacity: 10%;
+  background-color: #eef3fa;
+  border: 1px solid #5c99d6;
+  border-radius: 3px;
+  font-family: "Whitney";
+  font-size: 14px;
+  font-weight: 350px;
+  color: #606366;
+  line-height: 15px;
+  opacity: 10%;
 }
 
 /*
@@ -962,30 +963,30 @@ MedSoft CSS
 */
 
 #footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 #footer footer {
-	font-size: 8px;
-	background-color: #b2f160;
+  font-size: 8px;
+  background-color: #b2f160;
 }
 
 .center {
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #EBFCD1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebfcd1;
 }
 
 .navbar-inverse {
-    background-color: #CEDFAC;
-    border-color: #080808;
+  background-color: #cedfac;
+  border-color: #080808;
 }
 
-html{
-	    background-color: lightgoldenrodyellow;
+html {
+  background-color: lightgoldenrodyellow;
 }

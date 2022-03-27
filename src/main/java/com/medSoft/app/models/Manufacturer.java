@@ -1,5 +1,5 @@
 
-package com.medSoft.models;
+package com.medSoft.app.models;
 
 import java.util.Set;
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package com.medSoft.controller.web;
+package com.medSoft.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

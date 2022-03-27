@@ -1,11 +1,11 @@
-package com.medSoft.services;
+package com.medSoft.app.services;
 
 import java.util.List;
 import java.util.UUID;
 
 import org.springframework.stereotype.Service;
 
-import com.medSoft.models.ProductCategory;
+import com.medSoft.app.models.ProductCategory;
 
 @Service
 public interface ProductCategoryService {
