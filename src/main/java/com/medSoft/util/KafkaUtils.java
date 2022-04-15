@@ -1,4 +1,4 @@
-package com.medSoft.configuration;
+package com.medSoft.util;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +10,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.stereotype.Component;
 
 @Component
-public class KafkaConfiguration {
+public class KafkaUtils {
 
 	private static final String KAFKA_BROKER = "localhost:9092";
     private static final String GROUP_ID = "kafka-sandbox";

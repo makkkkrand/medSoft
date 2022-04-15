@@ -17,7 +17,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 import org.springframework.beans.factory.annotation.Value;
 
-class EncryptionUtil {
+public class EncryptionUtil {
 
 	private static final String AES = "AES";
 
@@ -25,13 +25,13 @@ class EncryptionUtil {
 
 	private static final String AES_CBC_PKCS5PADDING = "AES/CBC/PKCS5Padding";
 
-	@Value("${secret.key}")
+	@Value("${secret.key:MedplusSecretKey}")
 	private String secretKey;
 
-	@Value("${secret.salt}")
+	@Value("${secret.salt:Salt_For_Encryption_Util}")
 	private String salt;
 
-	private final byte[] iv = { 'M', 'Y', 'S', 'E', 'C', 'R', 'E', 'T', 'S', 'P', 'E', 'C' };
+	private final byte[] iv = { 'M', 'E', 'D', 'A', 'P', 'I', 'S', 'E', 'C', 'R', 'E', 'T', 'S', 'P', 'E', 'C' };
 
 	public String encrypt(String strToEncrypt) {
 		try {
@@ -48,7 +48,6 @@ class EncryptionUtil {
 
 	public String decrypt(String strToDecrypt) {
 		try {
-
 			IvParameterSpec ivspec = new IvParameterSpec(iv);
 			SecretKeySpec secretKey = extractSecretKey();
 			Cipher cipher = Cipher.getInstance(AES_CBC_PKCS5PADDING);

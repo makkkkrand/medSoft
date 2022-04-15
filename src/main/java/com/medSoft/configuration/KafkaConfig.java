@@ -1,4 +1,4 @@
-package com.medSoft.app.beans;
+package com.medSoft.configuration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,17 +9,17 @@ import org.springframework.kafka.core.DefaultKafkaProducerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.core.ProducerFactory;
 
-import com.medSoft.configuration.KafkaConfiguration;
+import com.medSoft.util.KafkaUtils;
 
 /**
  * @author mukundkumarjha
  *
  */
 @Configuration
-public class KafkaUtils {
+public class KafkaConfig {
 
     @Autowired
-    KafkaConfiguration config;
+    KafkaUtils config;
 
     @Bean
     public ConsumerFactory<String, String> consumerFactory() {

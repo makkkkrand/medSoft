@@ -23,9 +23,9 @@ public class ProductCategoryServiceImpl implements ProductCategoryService{
 	@Override
 	public String saveProductCategory(ProductCategory productCategory) {
 		
-		ProductCategory category = repo.save(productCategory);
-		log.info("Saved productCategory:{}", category);
-		return null != category ?"Pass":"Fail";
+		ProductCategory output = repo.save(productCategory);
+		log.info("Saved productCategory:{}", output);
+		return null != output ?"Pass":"Fail";
 	}
 
 	@Override
@@ -36,16 +36,16 @@ public class ProductCategoryServiceImpl implements ProductCategoryService{
 	@Override
 	public String modifyProductCategory(ProductCategory productCategory, UUID id) {
 		productCategory.setId(id);
-		ProductCategory category = repo.save(productCategory);
-		log.info("Modified productCategory", category.getCategoryName());
-		return null != category ?"Pass":"Fail";
+		ProductCategory output = repo.save(productCategory);
+		log.info("Modified productCategory", output.getCategoryName());
+		return null != output ?"Pass":"Fail";
 	}
 
 	@Override
 	public ProductCategory findProductCategory(UUID id) {
-		Optional<ProductCategory> category = repo.findById(id);
-		log.info("Fetched productCategory", category.isPresent()?category.get():null);
-		return category.isPresent()?category.get():null;
+		Optional<ProductCategory> output = repo.findById(id);
+		log.info("Fetched productCategory", output.isPresent()?output.get():null);
+		return output.isPresent()?output.get():null;
 	}
 
 }
