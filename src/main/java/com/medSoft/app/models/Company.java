@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Table(name = "company")
-public class CompanyDao {
+public class Company {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private UUID id;

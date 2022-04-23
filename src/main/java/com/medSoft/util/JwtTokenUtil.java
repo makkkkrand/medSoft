@@ -21,7 +21,7 @@ public class JwtTokenUtil implements Serializable {
 
 	public static final long JWT_TOKEN_VALIDITY = 5 * 60 * 60;
 
-	@Value("${jwt.secret}")
+	@Value("${jwt.secret:MedSoftJwtSecret}")
 	private String secret;
 
 	//retrieve username from jwt token
@@ -39,12 +39,12 @@ public class JwtTokenUtil implements Serializable {
 		return claimsResolver.apply(claims);
 	}
     //for retrieveing any information from token we will need the secret key
-	private Claims getAllClaimsFromToken(String token) {
+	public Claims getAllClaimsFromToken(String token) {
 		return Jwts.parser().setSigningKey(secret).parseClaimsJws(token).getBody();
 	}
 
 	//check if the token has expired
-	private Boolean isTokenExpired(String token) {
+	public Boolean isTokenExpired(String token) {
 		final Date expiration = getExpirationDateFromToken(token);
 		return expiration.before(new Date());
 	}
@@ -56,9 +56,8 @@ public class JwtTokenUtil implements Serializable {
 	}
 
 	//refresh token for user
-	public String refreshToken(UserDetails userDetails) {
-		Map<String, Object> claims = new HashMap<>();
-		return doGenerateToken(claims, userDetails.getUsername());
+	public String refreshToken(Map<String, Object> claims, String subject) {
+		return doGenerateToken(claims, subject);
 	}
 	
 	//while creating the token -

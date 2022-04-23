@@ -8,7 +8,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.medSoft.app.models.UserDao;
+import com.medSoft.app.models.User;
 import com.medSoft.app.models.LoginDto;
 import com.medSoft.app.repositories.UserRepository;
 import com.medSoft.app.services.JwtUserDetailsService;
@@ -27,7 +27,7 @@ public class JwtUserDetailsServiceImpl implements JwtUserDetailsService {
 	
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		UserDao user = userRepository.findByUsername(username);
+		User user = userRepository.findByUsername(username);
 		if (user == null) {
 			throw new UsernameNotFoundException("User not found with username: " + username);
 		}
@@ -35,8 +35,8 @@ public class JwtUserDetailsServiceImpl implements JwtUserDetailsService {
 				new ArrayList<>());
 	}
 
-	public UserDao save(LoginDto user) {
-		UserDao newUser = new UserDao();
+	public User save(LoginDto user) {
+		User newUser = new User();
 		newUser.setUsername(user.getUsername());
 		newUser.setPassword(bcryptEncoder.encode(user.getPassword()));
 		return userRepository.save(newUser);

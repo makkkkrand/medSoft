@@ -44,6 +44,19 @@ public class JwtAuthenticationController {
 		return ResponseEntity.ok(new JwtResponse(token));
 	}
 
+	@RequestMapping(value = "/refreshToken", method = RequestMethod.POST)
+	public ResponseEntity<?> refreshAuthenticationToken(@RequestBody JwtResponse authenticationResponse)
+			throws Exception {
+
+		String token = jwtTokenUtil.isTokenExpired(authenticationResponse.getToken())
+				? jwtTokenUtil.refreshToken(jwtTokenUtil.getAllClaimsFromToken(authenticationResponse.getToken()),
+						jwtTokenUtil.getUsernameFromToken(authenticationResponse.getToken()))
+				: "";
+
+		return !"".equals(token) ? ResponseEntity.ok(new JwtResponse(token))
+				: ResponseEntity.badRequest().body("Token is expired or Invalid");
+	}
+
 	@RequestMapping(value = "/register", method = RequestMethod.POST)
 	public ResponseEntity<?> saveUser(@RequestBody LoginDto user) throws Exception {
 		return ResponseEntity.ok(userDetailsService.save(user));

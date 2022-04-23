@@ -14,7 +14,7 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.medSoft.app.models.UserDao;
+import com.medSoft.app.models.User;
 import com.medSoft.app.services.JwtUserDetailsService;
 import com.medSoft.util.JwtTokenUtil;
 
@@ -55,7 +55,7 @@ public class JwtRequestFilter extends OncePerRequestFilter {
 		// Once we get the token validate it.
 		if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
 
-			UserDao userDetails = (UserDao) jwtUserDetailsService.loadUserByUsername(username);
+			User userDetails = (User) jwtUserDetailsService.loadUserByUsername(username);
 
 			// if token is valid configure Spring Security to manually set
 			// authentication

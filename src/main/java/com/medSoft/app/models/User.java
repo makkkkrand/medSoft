@@ -13,7 +13,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 import org.springframework.security.core.GrantedAuthority;
@@ -29,7 +29,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserDao implements UserDetails {
+public class User implements UserDetails {
 
 	private static final long serialVersionUID = 7946657849577891456L;
 	@Id
@@ -39,8 +39,8 @@ public class UserDao implements UserDetails {
 	@Column
 	private String password;
 	@Column
-	@ManyToOne(targetEntity = CompanyDao.class)
-	private String company;
+	@OneToOne(mappedBy = "user", optional = false, fetch = FetchType.EAGER)
+	private Company company;
 	
     private boolean accountNonExpired;
 
