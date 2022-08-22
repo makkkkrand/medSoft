@@ -3,6 +3,7 @@ package com.medSoft.app.models;
 import java.util.UUID;
 
 import javax.persistence.Column;
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -17,7 +18,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "company")
+@Table(name = "companyDetails")
 public class Company {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -26,4 +27,10 @@ public class Company {
 	private String name;
 	@Column
 	private String address;
+	@Column
+	private String gstNumber;
+	@Column 
+	private boolean enabled;
+	@Embedded
+	private Base base;
 }

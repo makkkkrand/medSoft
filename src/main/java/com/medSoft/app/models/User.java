@@ -5,14 +5,10 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
@@ -22,72 +18,83 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "user")
+@Table(name = "userdetails")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@EqualsAndHashCode
 public class User implements UserDetails {
 
 	private static final long serialVersionUID = 7946657849577891456L;
 	@Id
+	@Column(name = "user_id")
 	private UUID id;
 	@Column
 	private String username;
 	@Column
 	private String password;
-	@Column
-	@OneToOne(mappedBy = "user", optional = false, fetch = FetchType.EAGER)
+
+	@OneToOne
+	@JoinColumn(name = "id", nullable = true)
 	private Company company;
+
+	@Column
+	private boolean accountNonExpired;
+
+	@Column
+	private boolean accountNonLocked;
+
+	@Column
+	private boolean credentialsNonExpired;
+
+	@Column
+	private boolean enabled;
+
+	@Column
+	@OneToOne(mappedBy = "UserRoleId")
+	private Role role;
+
+	public User(boolean accountNonExpired, boolean accountNonLocked, boolean credentialsNonExpired, boolean enabled) {
+		super();
+		this.accountNonExpired = accountNonExpired;
+		this.accountNonLocked = accountNonLocked;
+		this.credentialsNonExpired = credentialsNonExpired;
+		this.enabled = enabled;
+	}
 	
-    private boolean accountNonExpired;
-
-    private boolean accountNonLocked;
-
-    private boolean credentialsNonExpired;
-
-    private boolean enabled;
-
-    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	@JoinTable(name = "role", 
-			joinColumns = {
-					@JoinColumn(name = "user_id")
-			},
-			inverseJoinColumns = {
-					@JoinColumn(name = "role_id")
-			}
-	)
-	private Set<Role> roles;
-    
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		Set<SimpleGrantedAuthority> authorities = new HashSet<>();
-		this.getRoles().forEach(role -> {
-			authorities.add(new SimpleGrantedAuthority("ROLE_"+role.getRoleName()));
-		});
+		authorities.add(new SimpleGrantedAuthority(role.getRole()));
 		return authorities;
 	}
 
 	@Override
 	public boolean isAccountNonExpired() {
-		return accountNonExpired;
+		this.accountNonExpired = true;
+		return this.accountNonExpired;
 	}
 
 	@Override
 	public boolean isAccountNonLocked() {
-		return accountNonLocked;
+		this.accountNonLocked = true;
+		return this.accountNonLocked;
 	}
 
 	@Override
 	public boolean isCredentialsNonExpired() {
-		return credentialsNonExpired;
+		this.credentialsNonExpired = true;
+		return this.credentialsNonExpired;
 	}
 
 	@Override
 	public boolean isEnabled() {
-		return enabled;
+		this.enabled = true;
+		return this.enabled;
 	}
 
 }

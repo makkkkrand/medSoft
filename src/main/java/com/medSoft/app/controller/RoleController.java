@@ -15,11 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.medSoft.app.models.Role;
 import com.medSoft.app.services.RoleService;
 
-import io.swagger.v3.oas.annotations.security.SecurityRequirement;
-
 
 @RestController
-@SecurityRequirement(name = "medSoftApi")
+//@SecurityRequirement(name = "medSoftApi")
 public class RoleController {
 
 	@Autowired
@@ -38,13 +36,13 @@ public class RoleController {
 		return findAllRole;
 	}
 	@PutMapping(value = "/role/modify/{id}")
-	public String modifyRole(@RequestBody Role role, @PathVariable String id) {
+	public String modifyRole(@RequestBody Role role, @PathVariable int id) {
 		String modifyRole = roleService.modifyRole(role, id);
 		return modifyRole;
 	}
 	
 	@GetMapping(value = "/role/fetch/{id}")
-	public Role fetchRole(@PathVariable String id) {
+	public Role fetchRole(@PathVariable int id) {
 		Role findRole = roleService.findRole(id);
 		return findRole;
 	}

@@ -1,5 +1,7 @@
 package com.medSoft.app.models;
 
+import javax.persistence.Column;
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -9,14 +11,18 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "role")
+@Table(name = "roles")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Role {
 	
 	@Id
-	private String roleName;
+	@Column(name = "UserRoleId")
+	private int UserRoleId;
+	@Column
+	private String role;
+	@Embedded
+	private Base base;
 	
-	private String roleDescription;
 }

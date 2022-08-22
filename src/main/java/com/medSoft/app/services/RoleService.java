@@ -11,6 +11,6 @@ public interface RoleService {
 
 	String saveRole(Role role);
 	List<Role> findAllRole();
-	Role findRole(String id);
-	String modifyRole(Role role, String id);
+	Role findRole(int id);
+	String modifyRole(Role role, int id);
 }

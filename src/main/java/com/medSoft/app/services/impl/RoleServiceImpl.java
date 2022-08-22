@@ -32,15 +32,15 @@ public class RoleServiceImpl implements RoleService{
 	}
 
 	@Override
-	public String modifyRole(Role role, String id) {
-		role.setRoleName(id);
+	public String modifyRole(Role role, int id) {
+		role.setUserRoleId(id);
 		Role output = repo.save(role);
-		log.info("Modified role", output.getRoleDescription());
+		log.info("Modified role", output.getRole());
 		return null != output ?"Pass":"Fail";
 	}
 
 	@Override
-	public Role findRole(String id) {
+	public Role findRole(int id) {
 		Optional<Role> output = repo.findById(id);
 		log.info("Fetched role", output.isPresent()?output.get():null);
 		return output.isPresent()?output.get():null;

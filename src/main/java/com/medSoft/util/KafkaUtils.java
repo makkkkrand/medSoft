@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 public class KafkaUtils {
 
 	private static final String KAFKA_BROKER = "localhost:9092";
-    private static final String GROUP_ID = "kafka-sandbox";
+    private static final String GROUP_ID = "Medplus-Kafka-system-user";
     
     public Map<String, Object> producerConfigurations() {
         Map<String, Object> configurations = new HashMap<>();

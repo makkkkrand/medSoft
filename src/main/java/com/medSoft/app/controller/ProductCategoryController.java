@@ -16,11 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.medSoft.app.models.ProductCategory;
 import com.medSoft.app.services.ProductCategoryService;
 
-import io.swagger.v3.oas.annotations.security.SecurityRequirement;
-
 
 @RestController
-@SecurityRequirement(name = "medSoftApi")
+//@SecurityRequirement(name = "medSoftApi")
 public class ProductCategoryController {
 
 	@Autowired

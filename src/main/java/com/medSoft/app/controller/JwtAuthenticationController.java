@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.medSoft.app.models.JwtRequest;
 import com.medSoft.app.models.JwtResponse;
-import com.medSoft.app.models.LoginDto;
+import com.medSoft.app.models.User;
 import com.medSoft.app.services.JwtUserDetailsService;
 import com.medSoft.util.JwtTokenUtil;
 
@@ -58,7 +58,7 @@ public class JwtAuthenticationController {
 	}
 
 	@RequestMapping(value = "/register", method = RequestMethod.POST)
-	public ResponseEntity<?> saveUser(@RequestBody LoginDto user) throws Exception {
+	public ResponseEntity<?> saveUser(@RequestBody User user) throws Exception {
 		return ResponseEntity.ok(userDetailsService.save(user));
 	}
 
