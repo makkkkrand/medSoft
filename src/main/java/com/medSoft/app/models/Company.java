@@ -1,14 +1,14 @@
 package com.medSoft.app.models;
 
-import java.util.UUID;
-
 import javax.persistence.Column;
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+import org.hibernate.annotations.GenericGenerator;
+import org.springframework.lang.Nullable;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -21,16 +21,47 @@ import lombok.NoArgsConstructor;
 @Table(name = "companyDetails")
 public class Company {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private UUID id;
-	@Column
+	// @GeneratedValue(strategy = GenerationType.AUTO)
+	@GenericGenerator(name = "IntegerIdGenerator", strategy = "com.medSoft.util.IdGenerator")
+	@GeneratedValue(generator = "IntegerIdGenerator")
+	@Column(name="CompanyId")
+	private int id;
+	
+	@Column(name="CompanyName")
 	private String name;
-	@Column
-	private String address;
+	
+	@Embedded
+	private Address address;
+	
 	@Column
 	private String gstNumber;
-	@Column 
+	
+	@Column
+	private String telephoneNumber;
+	
+	@Column
+	private String mobileNumber;
+
+	@Column
+	private String panNumber;
+
+	@Column
+	private String ownerName;
+	
+	@Column
+	private String ownerContactInfo;
+	
+	@Column
+	private String ownerPanNumber;
+
+	@Nullable
+	@Embedded
+	private AdditionalInfo additionalInfo;
+
+	@Column
 	private boolean enabled;
+	
 	@Embedded
 	private Base base;
+
 }
