@@ -39,7 +39,7 @@ public class User implements UserDetails {
 	private String password;
 
 	@OneToOne
-	@JoinColumn(name = "id", nullable = true)
+	@JoinColumn(name = "companyId", nullable = false)
 	private Company company;
 
 	@Column

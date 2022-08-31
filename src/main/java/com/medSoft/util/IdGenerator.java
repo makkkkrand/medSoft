@@ -1,8 +1,9 @@
 package com.medSoft.util;
 
 import java.io.Serializable;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.time.DateTimeException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 import org.hibernate.HibernateException;
 import org.hibernate.engine.spi.SharedSessionContractImplementor;
@@ -13,17 +14,17 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class IdGenerator implements IdentifierGenerator {
 
-	private static final String YYYY_MM_DD_HH_MM_SS = "yyyyMMddHHmmss";
+	private static final String YYYY_MM_DD_HH_MM_SS = "yyyyMMddHHmmssns";
 
 	@Override
 	public Serializable generate(SharedSessionContractImplementor session, Object object) throws HibernateException {
-		Date date = new Date();
+		LocalDateTime dateTime = LocalDateTime.now();
+		DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern(YYYY_MM_DD_HH_MM_SS);
 		String id="";
 		try {
-			SimpleDateFormat format = new SimpleDateFormat(YYYY_MM_DD_HH_MM_SS);
-			id = format.format(date);
-		} catch (Exception e) {
-			log.error("unable to fetch new Id having error :()", e.getMessage());
+			id = dateTime.format(dateTimeFormatter);
+		} catch (DateTimeException e) {
+			log.error("unable to fetch new Id having error" );
 		}
 		return Integer.valueOf(id);
 	}

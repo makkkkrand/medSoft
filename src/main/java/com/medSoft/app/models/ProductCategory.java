@@ -24,6 +24,5 @@ public class ProductCategory {
 	private String categoryName;
 	@Embedded
 	private Base base;
-	
 
 }

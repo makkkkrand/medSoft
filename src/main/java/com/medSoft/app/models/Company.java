@@ -24,10 +24,10 @@ public class Company {
 	// @GeneratedValue(strategy = GenerationType.AUTO)
 	@GenericGenerator(name = "IntegerIdGenerator", strategy = "com.medSoft.util.IdGenerator")
 	@GeneratedValue(generator = "IntegerIdGenerator")
-	@Column(name="CompanyId")
+	@Column(name="companyId")
 	private int id;
 	
-	@Column(name="CompanyName")
+	@Column(name="companyName")
 	private String name;
 	
 	@Embedded
