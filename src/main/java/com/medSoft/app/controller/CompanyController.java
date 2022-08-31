@@ -2,7 +2,7 @@ package com.medSoft.app.controller;
 
 import java.util.List;
 import java.util.Map;
-import java.util.UUID;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -11,8 +11,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
+
 import com.medSoft.app.models.Company;
 import com.medSoft.app.services.CompanyService;
+
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 
 @RestController

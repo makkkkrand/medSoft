@@ -2,12 +2,14 @@ package com.medSoft.app.services.impl;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.UUID;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import com.medSoft.app.models.Company;
 import com.medSoft.app.repositories.CompanyRepository;
 import com.medSoft.app.services.CompanyService;
+
 import lombok.extern.slf4j.Slf4j;
 
 @Service
