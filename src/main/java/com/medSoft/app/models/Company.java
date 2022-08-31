@@ -53,13 +53,13 @@ public class Company {
 	
 	@Column
 	private String ownerPanNumber;
-
+	
+	@Column
+	private boolean enabled;
+	
 	@Nullable
 	@Embedded
 	private AdditionalInfo additionalInfo;
-
-	@Column
-	private boolean enabled;
 	
 	@Embedded
 	private Base base;

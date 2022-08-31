@@ -29,7 +29,6 @@ public class JwtUserDetailsServiceImpl implements JwtUserDetailsService {
 	}
 
 	public User save(User user) {
-		
 		User newUser = new User(true, true, true, true);
 		newUser.setUsername(user.getUsername());
 		newUser.setPassword(bcryptEncoder.encode(user.getPassword()));
