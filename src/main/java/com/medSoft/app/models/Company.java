@@ -1,14 +1,13 @@
 package com.medSoft.app.models;
 
-import javax.persistence.Column;
-import javax.persistence.Embedded;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import jakarta.persistence.Column;
+import jakarta.persistence.Embedded;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 import org.hibernate.annotations.GenericGenerator;
-import org.springframework.lang.Nullable;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -19,7 +18,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Table(name = "companyDetails")
-public class Company {
+public class Company extends AdditionalInfo {
+	private static final long serialVersionUID = 1L;
+
 	@Id
 	// @GeneratedValue(strategy = GenerationType.AUTO)
 	@GenericGenerator(name = "IntegerIdGenerator", strategy = "com.medSoft.util.IdGenerator")
@@ -57,11 +58,4 @@ public class Company {
 	@Column
 	private boolean enabled;
 	
-	@Nullable
-	@Embedded
-	private AdditionalInfo additionalInfo;
-	
-	@Embedded
-	private Base base;
-
 }

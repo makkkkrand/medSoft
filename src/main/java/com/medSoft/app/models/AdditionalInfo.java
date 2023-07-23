@@ -1,7 +1,6 @@
 package com.medSoft.app.models;
 
-import javax.persistence.Column;
-import javax.persistence.Embeddable;
+import jakarta.persistence.Column;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -13,9 +12,9 @@ import lombok.EqualsAndHashCode;
  *
  */
 @Data
-@Embeddable
 @EqualsAndHashCode
-public class AdditionalInfo {
+public class AdditionalInfo extends Base{
+	private static final long serialVersionUID = 1L;
 	@Column
 	public String additionalInfo1;
 	@Column

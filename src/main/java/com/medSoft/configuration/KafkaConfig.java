@@ -22,7 +22,7 @@ public class KafkaConfig {
     KafkaUtils config;
 
     @Bean
-    public ConsumerFactory<String, String> consumerFactory() {
+    ConsumerFactory<String, String> consumerFactory() {
         return new DefaultKafkaConsumerFactory<>(config.consumerConfigurations());
     }
 
@@ -34,12 +34,12 @@ public class KafkaConfig {
     }
     
     @Bean
-    public ProducerFactory<String, String> producerFactory() {
+    ProducerFactory<String, String> producerFactory() {
         return new DefaultKafkaProducerFactory<>(config.producerConfigurations());
     }
 
     @Bean
-    public KafkaTemplate<String, String> kafkaTemplate() {
+    KafkaTemplate<String, String> kafkaTemplate() {
         return new KafkaTemplate<>(producerFactory());
     }
     

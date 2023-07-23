@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 import com.medSoft.util.EncryptionUtil;
 
+
 @Component
 public class CustomPasswordEncoder implements PasswordEncoder {
 
